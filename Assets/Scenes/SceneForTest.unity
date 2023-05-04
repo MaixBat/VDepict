@@ -1369,6 +1369,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7558697599872325726, guid: 4b4d7a789937bdb408f964ca9d089c75,
+        type: 3}
+      propertyPath: m_XROrigin
+      value: 
+      objectReference: {fileID: 1917322892}
+    - target: {fileID: 7558697599872325727, guid: 4b4d7a789937bdb408f964ca9d089c75,
+        type: 3}
+      propertyPath: m_System
+      value: 
+      objectReference: {fileID: 1917322894}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b4d7a789937bdb408f964ca9d089c75, type: 3}
 --- !u!223 &103460777 stripped
@@ -12658,6 +12668,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909388317}
   m_CullTransparentMesh: 1
+--- !u!114 &1917322892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7558697599872325721, guid: 4b4d7a789937bdb408f964ca9d089c75,
+    type: 3}
+  m_PrefabInstance: {fileID: 90292015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1917322894 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7558697599872325726, guid: 4b4d7a789937bdb408f964ca9d089c75,
+    type: 3}
+  m_PrefabInstance: {fileID: 90292015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1918543087
 GameObject:
   m_ObjectHideFlags: 0
